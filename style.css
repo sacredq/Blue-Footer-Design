@@ -1,0 +1,78 @@
+body{
+    color: white; padding: 0; margin: 0;
+    font-weight: 400;
+}
+
+.container{
+    width: 100%; margin: 0; padding: 0; 
+    position: fixed; background: #140B5C;
+    height: 330px; bottom: 0;
+}
+
+.Top{
+    padding-left: 5%; padding-right: 5%;
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+.Left{
+    display: flex; flex-direction: row; align-items: center; 
+}
+
+.Logo{
+    font-size: 2rem;
+}
+
+.center_grid{
+    display: flex; flex-direction: row; gap: 20px;
+    justify-content: space-evenly; 
+}
+
+.column{
+    display: flex; flex-direction: column;
+    /* Is't too big gap in my columns */
+}
+
+.column > * {
+    margin: 8px 0;  
+}
+
+.field{
+    color: white; font-size: 17px;
+    width: 16rem; height: 42px; background: #140B5C;
+    border: 1px solid white; border-radius: 4px;
+}
+
+.bt1{
+    cursor: pointer; font-size: 22px; border-radius: 8px;
+    border: none; height: 40px; width: 16rem;
+}
+
+.icon{
+    font-size: 26px; 
+}
+
+.icon_box{
+    border-radius: 50%; background-color: red; height: 50px;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center; width: 50px;
+}
+
+#face{
+    background-color: blue;
+}
+
+#twitter{
+    background-color: rgb(0, 162, 255);
+}
+
+#inst{
+    background-color: rgb(236, 108, 129);
+}
+
+.Right_icons{
+    display: flex; flex-direction: row; gap: 8px;
+}
+
+.icon:hover{
+    font-size: 29px; cursor: pointer;
+}
